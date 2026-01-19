@@ -35,6 +35,8 @@ In your GitHub repository:
 
 When the runner executes the reverse-shell command, you should see a connection appear in your listener terminal.
 
+<img width="1386" height="287" alt="Screenshot 2026-01-19 153400" src="https://github.com/user-attachments/assets/39aee9a8-97dd-456a-abdc-b44cfeb7a97c" />
+
 #### Upgrade to an Interactive TTY (Optional)
 
 Once the reverse shell connects, you can upgrade it to a fully interactive Bash session with:
